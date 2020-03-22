@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium">
+  <test thread-count="5" name="Regression">
+    <classes>
+      <class name="com.edureka.testng.MyFirstTestNgDemo"/>
+      <class name="com.edureka.testng.TaskModuleScripts"/>
+      <class name="com.edureka.testng.LogInModuleScripts"/>
+      <class name="com.edureka.thirdpartytools.ComposeEmailWithAttachment"/>
+      <class name="com.edureka.thirdpartytools.DatabaseTesingDemo"/>
+      <class name="com.edureka.testng.UserModuleScripts"/>
+    </classes>
+  </test> <!-- Regression -->
+</suite> <!-- Selenium -->
